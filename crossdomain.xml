@@ -4,6 +4,8 @@
 	<site-control permitted-cross-domain-policies="master-only" />
 	<allow-access-from domain="github.com" secure="false" />
 	<allow-http-request-headers-from domain="github.com" headers="*" />
+	<allow-access-from domain="https.github.com" secure="false" />
+	<allow-http-request-headers-from domain="https.github.com" headers="*" />
 	<allow-access-from domain="igniteinteractivestudio.github.com" secure="false" />
 	<allow-http-request-headers-from domain="igniteinteractivestudio.github.com" headers="*" />
 </cross-domain-policy>
